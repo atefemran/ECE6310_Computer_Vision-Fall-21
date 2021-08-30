@@ -42,6 +42,9 @@ As shown the timing dramatically decreases when using separable filter compared 
 ## Instructions
 To run the program, create executable file first using your compiler, then in the terminal run it as below:
 `[0-excutable_file] [1-image_to_be_filtered] [2-filter_size] [3-filtering_method]`.
+
 Example: `.\lab1.exe bridge.ppm 7 3`, which will use the image bridge.ppm as input to be filtered, with 7x7 matrix and using Separable and Sliding window Filters. Result will be file named with the selected filter in the directory.
+
 To compare the files: `[0-excutable_file] [1-first_image] [2-second_image]`.
+
 Example: `.\compare.exe 01_filtered_2D_convolution.ppm 03_separable_and_sliding_window_filters.ppm`
