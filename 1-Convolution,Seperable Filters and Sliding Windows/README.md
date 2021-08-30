@@ -13,6 +13,8 @@ Where filtering methods: (1) basic 2D convolution using mean, (2) Separable Filt
 
 The **code structure** is as below:
 
+![picture alt](https://raw.githubusercontent.com/atefemran/ECE6310_Introduction_to_Computer_Vision-Fall-21/main/1-Convolution%2CSeperable%20Filters%20and%20Sliding%20Windows/images/readme-01.PNG)
+
 ## Results
 The expected result is a smoothed image which has a black border with width = rounddown(matrix size / 2); because for the border pixels, the convolution matrix will extend outside the image and will be given value of zero as per the requirements.
 
