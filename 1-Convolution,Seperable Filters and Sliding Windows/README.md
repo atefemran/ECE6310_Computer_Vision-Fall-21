@@ -18,17 +18,24 @@ The **code structure** is as below:
 ## Results
 The expected result is a smoothed image which has a black border with width = rounddown(matrix size / 2); because for the border pixels, the convolution matrix will extend outside the image and will be given value of zero as per the requirements.
 
+![picture alt](https://raw.githubusercontent.com/atefemran/ECE6310_Introduction_to_Computer_Vision-Fall-21/main/1-Convolution%2CSeperable%20Filters%20and%20Sliding%20Windows/images/readme-02.PNG)
+
 The resulted image from each filter method is as below:
+![picture alt](https://raw.githubusercontent.com/atefemran/ECE6310_Introduction_to_Computer_Vision-Fall-21/main/1-Convolution%2CSeperable%20Filters%20and%20Sliding%20Windows/images/readme-03.PNG)
 
 Zoom-in on the corners of the image showing 3-pixels black borders for 7x7 matrix (rounddown(7/2) = 3)
+![picture alt](https://raw.githubusercontent.com/atefemran/ECE6310_Introduction_to_Computer_Vision-Fall-21/main/1-Convolution%2CSeperable%20Filters%20and%20Sliding%20Windows/images/readme-04.PNG)
 
 ### Comparing the results
 To compare the different results to each other, the compare.c was created to compare between these files. The program reads the two input images, and compare them pixel by pixel, and outputs the different pixels’ coordinates or “Identical Message”.
 
 The result of comparing the first with second and first with third image show identical images as below:
+![picture alt](https://raw.githubusercontent.com/atefemran/ECE6310_Introduction_to_Computer_Vision-Fall-21/main/1-Convolution%2CSeperable%20Filters%20and%20Sliding%20Windows/images/readme-05.PNG)
 
 ### Timing Data
 Each filtering method was timed to be compared with the other filtering methods; the box plot below shows the summary of the 10 runs timing for each of the methods.
+
+![picture alt](https://raw.githubusercontent.com/atefemran/ECE6310_Introduction_to_Computer_Vision-Fall-21/main/1-Convolution%2CSeperable%20Filters%20and%20Sliding%20Windows/images/readme-06.PNG)
 
 As shown the timing dramatically decreases when using separable filter compared to the basic 2D convolution as the large mathematical calculations with the nested loops are avoided in this technique. Also, when combining the sliding window with the separable filter there is further improvement in the processing time due to the further logic simplicity.
 
