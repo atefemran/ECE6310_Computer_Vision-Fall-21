@@ -1,2 +1,1 @@
-# ECE6310_Introduction_to_Computer_Vision-Fall-21
-Assignments and codes for ECE6310 course
+This folder contains the C codes for all the 10 mins challenges assigned during the lectures
