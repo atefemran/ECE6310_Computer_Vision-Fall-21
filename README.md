@@ -2,7 +2,7 @@
 
 The repo contains the assignments for **ECE631 Introduction to Computer Vision** during the Fall Semester 2021, Clemson University - International Center for Automotive Research.
 
-# Course Topics
+## Course Topics
 - [x] Histogram, Convolution and Smoothing
 - [x] Gradients, Laplacian, Scale space
 - [ ] Hysteresis, smoothing vs edges.
