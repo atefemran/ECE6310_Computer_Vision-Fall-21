@@ -5,8 +5,8 @@ The repo contains the assignments for **ECE631 Introduction to Computer Vision**
 ## Course Topics
 - [x] Histogram, Convolution and Smoothing
 - [x] Gradients, Laplacian, Scale space
-- [ ] Hysteresis, smoothing vs edges.
-- [ ] Template matching, cross co-relation
+- [x] Hysteresis, smoothing vs edges.
+- [x] Template matching, cross co-relation
 - [ ] Receiver Operator Characteristic Curve
 - [ ] Matched filter, and Weiner filter.
 - [ ] Edge properties, skeletonization.
@@ -20,3 +20,8 @@ The repo contains the assignments for **ECE631 Introduction to Computer Vision**
 - [ ] Motion Tracking
 - [ ] Range cameras, and range image segmentation.
 - [ ] Deep Learning, and object recognition.
+
+## Projects
+
+[1-Convolution,Seperable Filters and Sliding Windows](https://github.com/atefemran/ECE6310_Introduction_to_Computer_Vision-Fall-21/tree/main/1-Convolution%2CSeperable%20Filters%20and%20Sliding%20Windows)
+[2-Optical_Character_Recognition](https://github.com/atefemran/ECE6310_Introduction_to_Computer_Vision-Fall-21/tree/main/2-Optical_Character_Recognition)
