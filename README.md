@@ -5,8 +5,8 @@ The repo contains the assignments for **ECE631 Introduction to Computer Vision**
 ## Course Topics
 - [x] Histogram, Convolution and Smoothing
 - [x] Gradients, Laplacian, Scale space
-- [ ] Hysteresis, smoothing vs edges.
-- [ ] Template matching, cross co-relation
+- [x] Hysteresis, smoothing vs edges.
+- [x] Template matching, cross co-relation
 - [ ] Receiver Operator Characteristic Curve
 - [ ] Matched filter, and Weiner filter.
 - [ ] Edge properties, skeletonization.
@@ -20,3 +20,5 @@ The repo contains the assignments for **ECE631 Introduction to Computer Vision**
 - [ ] Motion Tracking
 - [ ] Range cameras, and range image segmentation.
 - [ ] Deep Learning, and object recognition.
+
+## Projects
